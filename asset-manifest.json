@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/grzesiek/static/css/main.2b06a288.css",
+    "main.js": "/grzesiek/static/js/main.82434d6e.js",
+    "static/js/453.36a50e1d.chunk.js": "/grzesiek/static/js/453.36a50e1d.chunk.js",
+    "static/media/movie1-2.jpg": "/grzesiek/static/media/movie1-2.d7ec1a5f84fb9b34401a.jpg",
+    "static/media/movie1-1.jpg": "/grzesiek/static/media/movie1-1.c8a656790a31576c7b43.jpg",
+    "static/media/movie1-3.jpg": "/grzesiek/static/media/movie1-3.a8a8eaf7c0e2f2e8e573.jpg",
+    "static/media/movie1-4.jpg": "/grzesiek/static/media/movie1-4.a3376416e9901f61654c.jpg",
+    "static/media/bioFoto.jpg": "/grzesiek/static/media/bioFoto.6cdda3f7235a875309b9.jpg",
+    "static/media/warsaw-film-festival.png": "/grzesiek/static/media/warsaw-film-festival.4e641e16e8129a2ff9e0.png",
+    "static/media/nagrody.png": "/grzesiek/static/media/nagrody.dea5af0cdb826299e3b0.png",
+    "index.html": "/grzesiek/index.html",
+    "main.2b06a288.css.map": "/grzesiek/static/css/main.2b06a288.css.map",
+    "main.82434d6e.js.map": "/grzesiek/static/js/main.82434d6e.js.map",
+    "453.36a50e1d.chunk.js.map": "/grzesiek/static/js/453.36a50e1d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b06a288.css",
+    "static/js/main.82434d6e.js"
+  ]
+}
