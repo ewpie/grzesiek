@@ -1,6 +1,14 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+@font-face {
+  font-family: 'Garet Light';
+  src: url('./fonts/garet-light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
 
 :root {
     --light-gray: #D9D9D9;
@@ -12,7 +20,7 @@
     --b-margin: 3rem;
 
     --header-font: "DM Sans";
-    --main-font: "DM Sans";
+    --main-font: "Garet Light";
     --small-font: "Roboto";
 
     --text-0-size: 1.125rem;
@@ -31,37 +39,6 @@
 
     }
 
-/* zmienne:
-
-
-
-text sytles:
-
-header
-
-h1 
-h2 2rem Dm sans tytuł filmu
-h3 
-
-text-1 0.875rem garet opis w bio
-text-2 0.75rem garet footer linki
-text 3 0.625rem garet opis filmow
-text-4 0.569 poodpisy pod grafikami filmów
-text-5 0.5 oodpisy pod grafikami filmów
-
-header-1 H1 rosenhaim-book 1.125
-header-2 0.875
-
-
-breakpoints 
-
-mobile/tablet
-@media only screen and (max-width: 64em)
-{...}
-
-marginesy  */
-
-
 * {
     box-sizing: border-box;
 }
@@ -76,12 +53,17 @@ body {
     background-color: white;
 }
 
+ul{
+    margin: 0;
+    padding: 0;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
     width: 100%;
     color: var(--dark-gray);
-    font-family: var(--header-font);
+    font-family: "Garet Light", sans-serif;
 
 }
 
@@ -89,12 +71,12 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    font-size: var(--text-1-size);
+
 }
 
 .name{
     padding-left: var(--m-margin);
-    font-size: var(--text-0-size);
+    font-size: 16px;
 }
 
 .nav{
@@ -107,6 +89,7 @@ body {
     display: inline-block;
     min-width: 100px; /* Stała szerokość, dostosuj jeśli trzeba */
     text-align: center;
+    font-size: 16px;
 }
 
 .lang-toggle {
@@ -124,11 +107,11 @@ body {
     color: var(--gray);
 }
 
-
-
 .movie-bottom{
-    gap: 2rem;
     background-color: var(--light-gray);
+    font-family: "Garet Free Light", "DM Sans", "sans-serif";
+    font-size: 10px;
+    padding-bottom: var(--m-margin)
 }
 
 .site-wrap{
@@ -138,32 +121,53 @@ body {
     flex-wrap: wrap;
     padding: 0 var(--m-margin);
 }
-
-.movie-text{
-    text-align: right;
+.movie-left{
+    text-align: left;
     padding-right: var(--m-margin);
     width: 50%;
 }
 
+.movie-right{
+    width: 50%;
+    min-width: 250px;
+
+}
+
+.movie-subtitles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .movie-description{
-width: 50%;
-min-width: 250px;
-text-align: justify;
+    text-align: justify;
+    margin: 0;
 }
 
-.award-icons{
-    flex-wrap: wrap;
-    padding: 0 var(--m-margin);
+
+.movie-title{
+    font-family: "DM Sans", sans-serif;
+    font-size: 32px;
 }
 
-.award-icon{
-    width: 25%;
+.movie-awards{
+    font-size: 10px;
 }
 
-.award-icon-img{
-    /* width: 50px; */
-    height: 80px;
+.movie-award{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
+
+.movie-award-icon{
+    height: 20px;
+}
+
+.movie-subtitle{
+    margin: 0;
+}
+
 
 .bio{
     min-height: 50vh;
@@ -220,12 +224,9 @@ text-align: justify;
     align-items: center;
 }
 
-
-
 .hr{
     width: 100%;
 }
-
 
 .btn-left, .btn-right{
     font-size: 40px;
@@ -248,14 +249,12 @@ text-align: justify;
 
 
 .movie-slider{
-
     display: flex;
     position: relative;
     height: 70vh;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-
 }
 
 .slides{
@@ -287,16 +286,18 @@ text-align: justify;
 
 
 @media screen and (max-width: 680px) {
-    .movie-text{
+    .movie-left{
         width: 100%;
-        text-align: center;
         padding: 0;
     }
-    .movie-description{
+    .movie-right{
         width: 100%;
     }
-    .award-icon{
-        width: 50%;
+    .movie-award-title{
+        margin: 5px 0;
+    }
+    .movie-subtitles, .movie-awards{
+        padding-bottom: var(--s-margin);
     }
     .bio-text{
         width: 100%;
@@ -308,3 +309,6 @@ text-align: justify;
         width: 680px;
     }
   }
+
+
+  

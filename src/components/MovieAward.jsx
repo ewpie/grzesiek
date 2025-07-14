@@ -1,9 +1,10 @@
-export default function MovieAward({ awardTitle, awardSubtitle, awardImg }) {
+import awardIcon from '../assets/awardIcon.png'
+
+export default function MovieAward({ awardTitle }) {
     return (
-        <div className="award-icon">
-            <img src={awardImg} className="award-icon-img" alt="" />
-            <p className="award-title">{awardTitle}</p>
-            <p className="award-subtitle">{awardSubtitle}</p>
-        </div>
+        <li className="movie-award">
+            <img src={awardIcon} className="movie-award-icon" alt="" />
+            <p className="movie-award-title">{awardTitle}</p>
+        </li>
     )
 }

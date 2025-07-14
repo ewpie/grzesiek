@@ -7,21 +7,28 @@ export default function Movie({ movieData, photos }) {
         <div className="movie-wrap">
             <MovieSlider photos={photos}></MovieSlider>
             <div className="movie-bottom align-center">
-                <div className="movie-text-wrap site-wrap">
-                    <div className="movie-text">
+                <div className="site-wrap">
+                    <div className="movie-left">
                         <h2 className="movie-title">{movieData.movieTitle}</h2>
+                    </div>
+                    <div className="movie-right movie-subtitles">
                         <p className="movie-subtitle">{movieData.movieSubtitle}</p>
                         <p className="movie-subtitle">{movieData.production}</p>
                         <p className="movie-subtitle">{movieData.duration}</p>
                     </div>
-                    <div className="movie-description">
-                        <p>{movieData.description}</p>
-                    </div>
                 </div>
-                <div className="movie-icons site-wrap">
-                    {awards.map((award, index) => (
-                        <MovieAward key={index} awardTitle={award.title} awardSubtitle={award.subtitle} awardImg={award.src}></MovieAward>
-                    ))}
+                <div className="site-wrap">
+                    <div className="movie-left">
+                        <ul className="movie-awards">
+                            {awards.map((award, index) => (
+                                <MovieAward key={index} awardTitle={award}></MovieAward>
+                            ))}
+                        </ul>
+
+                    </div>
+                    <div className="movie-right">
+                        <p className="movie-description">{movieData.description}</p>
+                    </div>
                 </div>
             </div>
         </div>
