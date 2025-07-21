@@ -4,6 +4,10 @@ import bioFoto from './assets/bioFoto.jpg';
 import { useState } from 'react';
 
 import { siteTexts, movies } from './data';
+// Dodaj na początku komponentu App
+import { Helmet } from "react-helmet";
+// ...
+
 
 import React from 'react';
 
@@ -11,7 +15,24 @@ function App() {
     const [language, setLanguage] = useState('pl');
     const t = siteTexts[language]
 
-    return (
+    return (<>
+
+        <Helmet>
+            <title>Grzegorz Piekarski – reżyser, scenarzysta</title>
+            <meta name="description" content="Oficjalna strona Grzegorza Piekarskiego – reżysera i scenarzysty. Informacje, filmy, kontakt." />
+        </Helmet>
+        <script type="application/ld+json">
+            {`
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Grzegorz Piekarski",
+  "jobTitle": "Reżyser, Scenarzysta",
+  "email": "gr.piekarski@gmail.com",
+  "url": "https://gpiekarski.pl"
+}
+`}
+        </script>
         <div className="App">
             <header className="header">
                 <div className="header-left">
@@ -36,7 +57,7 @@ function App() {
                 <div className="align-center">
                     <div id="bio" className="bio site-wrap">
                         <div className="bio-photo">
-                            <img className="bio-photo-img" src={bioFoto} alt="" />
+                            <img className="bio-photo-img" src={bioFoto} alt="Grzegorz Piekarski – zdjęcie" />
                         </div>
                         <div className="bio-text">
                             <p>GRZEGORZ PIEKARSKI</p>
@@ -68,6 +89,9 @@ function App() {
                 </div>
             </footer>
         </div>
+    </>
+
+
     );
 }
 
