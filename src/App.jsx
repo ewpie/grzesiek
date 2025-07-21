@@ -40,8 +40,7 @@ function App() {
                         </div>
                         <div className="bio-text">
                             <p>GRZEGORZ PIEKARSKI</p>
-                            <p>
-                                Reżyser, scenarzysta, fotograf. Urodzony w Warszawie. Absolwent Szkoły Filmowej im. Krzysztofa Kieślowskiego w Katowicach i Wydziału Mechatroniki Politechniki Warszawskiej. Stypendysta programu “Młoda Polska” Ministerstwa Kultury i Dziedzictwa Narodowego. Członek Stowarzyszenia Filmowców Polskich.
+                            <p>{t.bioDescription}
                             </p>
                         </div>
                     </div>
@@ -52,13 +51,12 @@ function App() {
                     <div className="site-wrap footer-up">
                         <div className="footer-up-left">
                             <p>{t.contact}</p>
-                            <p>tel 9090909090</p>
                             <p>email@emaip.com</p>
                             <p>{t.presskit}</p>
                         </div>
                         <div className="footer-up-right">
-                            <a className="footer-link">IMDB</a>
-                            <a className="footer-link">FILM POLSKI</a>
+                            <a className="footer-link" href="https://www.imdb.com/name/nm11128545/?ref_=ttawd_awd_1">IMDB</a>
+                            <a className="footer-link" href="https://filmpolski.pl/fp/index.php?osoba=11156939">FILM POLSKI</a>
                         </div>
                     </div>
                     <div className="site-wrap">

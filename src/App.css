@@ -1,314 +1,336 @@
-
-
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
 @font-face {
-  font-family: 'Garet Light';
-  src: url('./fonts/garet-light.otf') format('opentype');
-  font-weight: 300;
+  font-family: 'Now Light';
   font-style: normal;
-  font-display: swap;
+  font-weight: normal;
+  src: local('Now Light'), url('./fonts/Now-Light.woff') format('woff');
 }
 
+@font-face {
+  font-family: 'Now Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Now Regular'), url('./fonts/Now-Regular.woff') format('woff');
+}
 
 :root {
-    --light-gray: #D9D9D9;
-    --gray: #929292;
-    --dark-gray: #26353E;
+  --light-gray: #D9D9D9;
+  --gray: #929292;
+  --dark-gray: #26353E;
 
-    --s-margin: 1rem;
-    --m-margin: 2rem;
-    --b-margin: 3rem;
+  --s-margin: 1rem;
+  --m-margin: 2rem;
+  --b-margin: 3rem;
 
-    --header-font: "DM Sans";
-    --main-font: "Garet Light";
-    --small-font: "Roboto";
+  --main-font: "Now Light", sans-serif;
 
-    --text-0-size: 1.125rem;
-    /* name */
-    --text-1-size: 0.875rem;
-    /* garet opis w bio oraz linki header */
-    --text-2-size: 0.75rem;
-     /* garet footer linki */
-    --text-3-size: 0.625rem;
-     /* garet opis filmow */
-    --text-4-size: 0.569rem;
-     /* poodpisy pod grafikami filmów */
-    --text-5-size: 0.5rem; 
-    /* podpisy pod grafikami filmów */
-
-
-    }
-
-* {
-    box-sizing: border-box;
+  --text-0-size: 1.125rem;
+  --text-1-size: 0.875rem;
+  --text-2-size: 0.75rem;
+  --text-3-size: 0.625rem;
+  --text-4-size: 0.569rem;
+  --text-5-size: 0.5rem;
 }
 
-a{
-    text-decoration: none;
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
 }
 
 body {
-    font-family: 'DM Sans', sans-serif;
-    margin: 0;
-    background-color: white;
+  font-family: var(--main-font);
+  margin: 0;
+  background-color: white;
 }
 
-ul{
-    margin: 0;
-    padding: 0;
+ul {
+  margin: 0;
+  padding: 0;
 }
 
-.header{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    color: var(--dark-gray);
-    font-family: "Garet Light", sans-serif;
-
+a {
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
-.header-right{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-
+a:hover {
+  color: var(--gray);
+  text-decoration: underline;
 }
 
-.name{
-    padding-left: var(--m-margin);
-    font-size: 16px;
+a:visited {
+  color: var(--dark-gray); /* lub inny kolor, jeśli chcesz */
 }
 
-.nav{
-    padding-right: var(--m-margin);
+a:active {
+  color: black;
 }
 
 
-.nav a{
-    color: var(--dark-gray);
-    display: inline-block;
-    min-width: 100px; /* Stała szerokość, dostosuj jeśli trzeba */
-    text-align: center;
-    font-size: 16px;
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: var(--dark-gray);
+  font-family: var(--main-font);
+}
+
+.header-right {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.name {
+  padding-left: var(--m-margin);
+  font-size: 16px;
+}
+
+.nav {
+  padding-right: var(--m-margin);
+}
+
+.nav a {
+  color: var(--dark-gray);
+  display: inline-block;
+  min-width: 100px;
+  text-align: center;
+  font-size: 16px;
+  font-family: var(--main-font);
 }
 
 .lang-toggle {
-    background: none;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-    font-weight: bold;
-    color: var(--dark-gray);
-    transition: color 0.3s;
-    width: 50px;
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  color: var(--dark-gray);
+  transition: color 0.3s;
+  width: 50px;
+  font-family: var(--main-font);
 }
 
 .lang-toggle:hover {
-    color: var(--gray);
+  color: var(--gray);
 }
 
-.movie-bottom{
-    background-color: var(--light-gray);
-    font-family: "Garet Free Light", "DM Sans", "sans-serif";
-    font-size: 10px;
-    padding-bottom: var(--m-margin)
+.movie-bottom {
+  background-color: var(--light-gray);
+  font-family: var(--main-font);
+  font-size: 10px;
+  padding-bottom: var(--m-margin);
 }
 
-.site-wrap{
-    display: flex;
-    max-width: 1024px;
-    width: 100%;
-    flex-wrap: wrap;
-    padding: 0 var(--m-margin);
-}
-.movie-left{
-    text-align: left;
-    padding-right: var(--m-margin);
-    width: 50%;
+.site-wrap {
+  display: flex;
+  max-width: 1024px;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 0 var(--m-margin);
 }
 
-.movie-right{
-    width: 50%;
-    min-width: 250px;
-
+.movie-left {
+  text-align: left;
+  padding-right: var(--m-margin);
+  width: 50%;
 }
 
-.movie-subtitles{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.movie-right {
+  width: 50%;
+  min-width: 250px;
 }
 
-.movie-description{
-    text-align: justify;
-    margin: 0;
+.movie-subtitles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 11px;
+  line-height: 1.4;
 }
 
-
-.movie-title{
-    font-family: "DM Sans", sans-serif;
-    font-size: 32px;
+.movie-description {
+  text-align: justify;
+  margin: 0;
+  font-family: var(--main-font);
+  font-size: 11px;
+  line-height: 1.4;
 }
 
-.movie-awards{
-    font-size: 10px;
+.movie-title {
+  font-family: "Now Regular";
+  font-size: 32px;
 }
 
-.movie-award{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.movie-awards {
+  font-size: 11px;
+  font-family: var(--main-font);
+  line-height: 1.4;
 }
 
-.movie-award-icon{
-    height: 20px;
+.movie-award {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-.movie-subtitle{
-    margin: 0;
+.movie-award-icon {
+  height: 20px;
 }
 
-
-.bio{
-    min-height: 50vh;
-    padding: 10vh var(--m-margin);
-    justify-content: space-between;
+.movie-subtitle {
+  margin: 0;
+  font-family: var(--main-font);
 }
 
-.bio-photo{
-    height: 100%;
-    max-width: 100%;
-    padding-right: var(--m-margin);
+.bio {
+  min-height: 50vh;
+  padding: 10vh var(--m-margin);
+  justify-content: space-between;
 }
 
-.bio-photo-img{
-    height: 30vh;
+.bio-photo {
+  height: 100%;
+  max-width: 100%;
+  padding-right: var(--m-margin);
 }
 
-.bio-text{
-    width: 50%;
-    text-align: justify;
+.bio-photo-img {
+  height: 30vh;
 }
 
-
-
-.footer{
-    height: 50vh;
-    background-color: var(--gray);
-    color: white;
+.bio-text {
+  width: 50%;
+  text-align: justify;
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 1.4;
 }
 
-.footer-wrap{
-    justify-content: space-around;
-    height: 100%;
+.footer {
+  height: 50vh;
+  background-color: var(--gray);
+  color: white;
+  font-family: var(--main-font);
 }
 
-.footer-up-left, .footer-up-right{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    gap: var(--s-margin);
+.footer-wrap {
+  justify-content: space-around;
+  height: 100%;
+}
+
+.footer-up-left,
+.footer-up-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-margin);
 }
 
 .footer-up-left p {
-    margin: 0;
+  margin: 0;
 }
 
-.footer-link{
-    display: block;
+.footer-link {
+  display: block;
 }
 
-.align-center{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.align-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.hr{
-    width: 100%;
+.hr {
+  width: 100%;
 }
 
-.btn-left, .btn-right{
-    font-size: 40px;
-    position: absolute;
-    background: none;
-    border: none;
-    color:white;
-    z-index: 10;
-    top: calc(50% - 18px);
-    cursor: pointer;    
+.btn-left,
+.btn-right {
+  font-size: 40px;
+  position: absolute;
+  background: none;
+  border: none;
+  color: white;
+  z-index: 10;
+  top: calc(50% - 18px);
+  cursor: pointer;
+  font-family: var(--main-font);
 }
 
-.btn-left{
-    left: var(--m-margin);
+.btn-left {
+  left: var(--m-margin);
 }
 
-.btn-right{
-    right: var(--m-margin);
+.btn-right {
+  right: var(--m-margin);
 }
 
-
-.movie-slider{
-    display: flex;
-    position: relative;
-    height: 70vh;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+.movie-slider {
+  display: flex;
+  position: relative;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
-.slides{
-    display: flex;
-    transition: transform 2s;
-
-}
-.infinity{
-    transition: transform 0s;
+.slides {
+  display: flex;
+  transition: transform 2s;
 }
 
-
-.slide{
-    width: 1024px;
-    min-width: 680px;
-    height: 70vh;
-    justify-content: center;
-    align-items: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
+.infinity {
+  transition: transform 0s;
 }
 
-.slide-image{
-    width: 100%;
-    height: 100%;
-    background-size: cover;
+.slide {
+  width: 1024px;
+  min-width: 680px;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
 }
 
+.slide-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
 
 @media screen and (max-width: 680px) {
-    .movie-left{
-        width: 100%;
-        padding: 0;
-    }
-    .movie-right{
-        width: 100%;
-    }
-    .movie-award-title{
-        margin: 5px 0;
-    }
-    .movie-subtitles, .movie-awards{
-        padding-bottom: var(--s-margin);
-    }
-    .bio-text{
-        width: 100%;
-    }
-    .footer-up-right{
-        text-align: right;
-    }
-    .slide {
-        width: 680px;
-    }
+  .movie-left {
+    width: 100%;
+    padding: 0;
   }
 
+  .movie-right {
+    width: 100%;
+  }
 
-  
+  .movie-award-title {
+    margin: 5px 0;
+  }
+
+  .movie-subtitles,
+  .movie-awards {
+    padding-bottom: var(--s-margin);
+  }
+
+  .bio-text {
+    width: 100%;
+  }
+
+  .footer-up-right {
+    text-align: right;
+  }
+
+  .slide {
+    width: 680px;
+  }
+}
