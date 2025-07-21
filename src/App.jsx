@@ -51,8 +51,8 @@ function App() {
                     <div className="site-wrap footer-up">
                         <div className="footer-up-left">
                             <p>{t.contact}</p>
-                            <p>email@emaip.com</p>
-                            <p>{t.presskit}</p>
+                            <p>gr.piekarski@gmail.com</p>
+                            {/* <p>{t.presskit}</p> */}
                         </div>
                         <div className="footer-up-right">
                             <a className="footer-link" href="https://www.imdb.com/name/nm11128545/?ref_=ttawd_awd_1">IMDB</a>
