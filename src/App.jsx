@@ -1,15 +1,12 @@
 import './App.css';
 import Movie from './components/Movie';
+import Media from './components/Media';
+import { siteTexts, movies, medias } from './data';
 import bioFoto from './assets/bioFoto.jpg';
+
 import { useState } from 'react';
-
-import { siteTexts, movies } from './data';
-// Dodaj na początku komponentu App
 import { Helmet } from "react-helmet";
-// ...
 
-
-import React from 'react';
 
 function App() {
     const [language, setLanguage] = useState('pl');
@@ -36,7 +33,8 @@ function App() {
         <div className="App">
             <header className="header">
                 <div className="header-left">
-                    <h1 className="name">Grzegorz Piekarski</h1>
+                    <h1 className="name">GRZEGORZ PIEKARSKI</h1>
+                    <h2 className="profession">DIRECTOR | SCRIPTWRITER | CINEMATOGRAPHER</h2>
                 </div>
                 <div className="header-right">
                     <div className="nav">
@@ -44,7 +42,7 @@ function App() {
                     </div>
                     <div className="nav">
                         <button className="lang-toggle" onClick={() => setLanguage(language === 'pl' ? 'eng' : 'pl')}>
-                            {language === 'pl' ? 'ENG' : 'PL'}
+                            {language === 'pl' ? 'eng' : 'pl'}
                         </button>
                     </div>
 
@@ -65,6 +63,7 @@ function App() {
                         </div>
                     </div>
                 </div>
+                <Media medias={medias}></Media>
             </main>
             <footer className="footer">
                 <div className="footer-wrap align-center">
