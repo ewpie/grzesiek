@@ -14,14 +14,14 @@ export const siteTexts = {
         contact: "Kontakt:",
         presskit: "Presskit",
         rights: "©2024 Grzegorz Piekarski. Wszelkie prawa zastrzeżone.",
-        bioDescription: "Reżyser, scenarzysta. Urodzony w Warszawie. Absolwent Szkoły Filmowej im. Krzysztofa Kieślowskiego w Katowicach i Wydziału Mechatroniki Politechniki Warszawskiej. Stypendysta programu “Młoda Polska” Ministerstwa Kultury i Dziedzictwa Narodowego. Członek Stowarzyszenia Filmowców Polskich."   
+        bioDescription: "Reżyser i scenarzysta, urodzony w Warszawie. Absolwent Szkoły Filmowej im. Krzysztofa Kieślowskiego w Katowicach oraz Wydziału Mechatroniki Politechniki Warszawskiej. Stypendysta programu „Młoda Polska” Ministerstwa Kultury i Dziedzictwa Narodowego. Uczestnik programów rozwojowych Doc Lab Poland i dok.incubator. Członek Stowarzyszenia Filmowców Polskich.<br/>Jego fabularny film dyplomowy „Niewolnik” był prezentowany m.in. na Festiwalu Polskich Filmów Fabularnych w Gdyni, Warszawskim Festiwalu Filmowym, Camerimage oraz Nowych Horyzontach. <br/> Pełnometrażowy dokument „Miasto, które wyjechało” miał światową premierę na festiwalu Visions du Réel w Nyonie – jednym z najważniejszych wydarzeń kina dokumentalnego na świecie – gdzie zdobył nagrodę. Film otrzymał także liczne wyróżnienia i nominacje na międzynarodowych festiwalach, a na festiwalu Młodzi i Film w Koszalinie uhonorowano go Wielkim Jantarem za najlepszy debiut dokumentalny."   
     },
     eng:{
         bio: "bio/contact",
         contact: "Contact:",
         presskit: "Presskit",
         rights: "©2024 Grzegorz Piekarski. All Rights Reserved.",
-        bioDescription: 'Director, screenwriter. Born in Warsaw. A graduate of the Krzysztof Kieślowski Film School in Katowice and the Faculty of Mechatronics at the Warsaw University of Technology. Recipient of the "Young Poland" scholarship from the Ministry of Culture and National Heritage. Member of the Polish Filmmakers Association.'
+        bioDescription: 'Film director and screenwriter, born in Warsaw. A graduate of the Krzysztof Kieślowski Film School in Katowice and the Faculty of Mechatronics at the Warsaw University of Technology. Recipient of the Młoda Polska scholarship from the Ministry of Culture and National Heritage. Participant of the Doc Lab Poland and dok.incubator programs. Member of the Polish Filmmakers Association. <br/> His graduation feature film Slave was screened at the Polish Film Festival in Gdynia, the Warsaw Film Festival, Camerimage, and New Horizons. <br/> His feature-length documentary The Town That Drove Away had its world premiere at Visions du Réel in Nyon – one of the most prestigious documentary film festivals in the world – where it received an award. The film also earned multiple distinctions and nominations at international festivals, and won the Golden Jantar for Best Documentary Debut at the Młodzi i Film Festival in Koszalin.'
     }
 }
 

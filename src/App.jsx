@@ -61,8 +61,7 @@ function App() {
                         </div>
                         <div className="bio-text">
                             <p>GRZEGORZ PIEKARSKI</p>
-                            <p>{t.bioDescription}
-                            </p>
+                            <p dangerouslySetInnerHTML={{ __html: t.bioDescription }}></p>
                         </div>
                     </div>
                 </div>
