@@ -9,14 +9,14 @@ import foto2_3 from './assets/movie02/3.jpg';
 import foto2_4 from './assets/movie02/4.jpg';
 // import foto2_5 from './assets/movie02/5.jpg';
 
-import media_1 from './assets/media/modern-times.png';
-import media_2 from './assets/media/business-doc-europe.png';
-import media_3 from './assets/media/rai-news.png';
-import media_4 from './assets/media/culture.jpg';
-import media_5 from './assets/media/nowy-swiat.png';
-import media_6 from './assets/media/tok-fm.png';
-import media_7 from './assets/media/trojka.png';
-import media_8 from './assets/media/czworka.png';
+import media_1 from './assets/media/01-businessdoceurope.png';
+import media_2 from './assets/media/02-moderntimesreview.png';
+import media_3 from './assets/media/03-rainews.png';
+import media_4 from './assets/media/04-culture.png';
+import media_5 from './assets/media/05-nowyswiat.png';
+import media_6 from './assets/media/06-tokfm.png';
+import media_7 from './assets/media/07-trojka.png';
+import media_8 from './assets/media/08-czworka.png';
 
 
 
@@ -25,14 +25,14 @@ export const siteTexts = {
         bio: "bio/kontakt",
         contact: "Kontakt:",
         presskit: "Presskit",
-        rights: "©2024 Grzegorz Piekarski. Wszelkie prawa zastrzeżone.",
+        rights: "©2025 Grzegorz Piekarski. Wszelkie prawa zastrzeżone.",
         bioDescription: "Reżyser i scenarzysta, urodzony w Warszawie. Absolwent Szkoły Filmowej im. Krzysztofa Kieślowskiego w Katowicach oraz Wydziału Mechatroniki Politechniki Warszawskiej. Stypendysta programu „Młoda Polska” Ministerstwa Kultury i Dziedzictwa Narodowego. Uczestnik programów rozwojowych Doc Lab Poland i dok.incubator. Członek Stowarzyszenia Filmowców Polskich.<br/>Jego fabularny film dyplomowy „Niewolnik” był prezentowany m.in. na Festiwalu Polskich Filmów Fabularnych w Gdyni, Warszawskim Festiwalu Filmowym, Camerimage oraz Nowych Horyzontach. <br/> Pełnometrażowy dokument „Miasto, które wyjechało” miał światową premierę na festiwalu Visions du Réel w Nyonie – jednym z najważniejszych wydarzeń kina dokumentalnego na świecie – gdzie zdobył nagrodę. Film otrzymał także liczne wyróżnienia i nominacje na międzynarodowych festiwalach, a na festiwalu Młodzi i Film w Koszalinie uhonorowano go Wielkim Jantarem za najlepszy debiut dokumentalny."   
     },
     eng:{
         bio: "bio/contact",
         contact: "Contact:",
         presskit: "Presskit",
-        rights: "©2024 Grzegorz Piekarski. All Rights Reserved.",
+        rights: "©2025 Grzegorz Piekarski. All Rights Reserved.",
         bioDescription: 'Film director and screenwriter, born in Warsaw. A graduate of the Krzysztof Kieślowski Film School in Katowice and the Faculty of Mechatronics at the Warsaw University of Technology. Recipient of the Młoda Polska scholarship from the Ministry of Culture and National Heritage. Participant of the Doc Lab Poland and dok.incubator programs. Member of the Polish Filmmakers Association. <br/> His graduation feature film Slave was screened at the Polish Film Festival in Gdynia, the Warsaw Film Festival, Camerimage, and New Horizons. <br/> His feature-length documentary The Town That Drove Away had its world premiere at Visions du Réel in Nyon – one of the most prestigious documentary film festivals in the world – where it received an award. The film also earned multiple distinctions and nominations at international festivals, and won the Golden Jantar for Best Documentary Debut at the Młodzi i Film Festival in Koszalin.'
     }
 }
@@ -156,8 +156,8 @@ export const movies = [
 
 
 export const medias = [
-    { src: media_1, href: "https://www.moderntimes.review/interview-the-town-that-drove-away" },
-    { src: media_2, href: "https://businessdoceurope.com/vdr-medium-length-competition-the-town-that-drove-away-by-grzegorz-piekarski-natalia-pietsch/" },
+    { src: media_1, href: "https://businessdoceurope.com/vdr-medium-length-competition-the-town-that-drove-away-by-grzegorz-piekarski-natalia-pietsch/" },
+    { src: media_2, href: "https://www.moderntimes.review/interview-the-town-that-drove-away" },
     { src: media_3, href: "https://www.rainews.it/tgr/piemonte/articoli/2025/06/cinemambiente-vince-il-polacco-the-town-that-drove-away-9734a225-1b5c-4b82-9ab2-1dc201d7ce2e.html" },
     { src: media_4, href: "https://culture.pl/pl/dzielo/miasto-ktore-wyjechalo-rez-grzegorz-piekarski-natalia-pietsch" },
     { src: media_5, href: "https://youtu.be/fp5hTxDyGrU?si=k5KvXE7tEDCnFWRK" },

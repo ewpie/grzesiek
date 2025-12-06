@@ -42,7 +42,7 @@ function App() {
                     </div>
                     <div className="nav">
                         <button className="lang-toggle" onClick={() => setLanguage(language === 'pl' ? 'eng' : 'pl')}>
-                            {language === 'pl' ? 'eng' : 'pl'}
+                            {language === 'pl' ? 'ENG' : 'PL'}
                         </button>
                     </div>
 
@@ -54,10 +54,10 @@ function App() {
                 ))}
                 <div className="align-center">
                     <div id="bio" className="bio site-wrap">
-                        <div className="bio-photo">
+                        <div className="bio-photo bio-left">
                             <img className="bio-photo-img" src={bioFoto} alt="Grzegorz Piekarski – zdjęcie" />
                         </div>
-                        <div className="bio-text">
+                        <div className="bio-text bio-right">
                             <p>GRZEGORZ PIEKARSKI</p>
                             <p dangerouslySetInnerHTML={{ __html: t.bioDescription }}></p>
                         </div>

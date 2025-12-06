@@ -127,12 +127,13 @@ a:active {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  gap: 20px
 }
 
 .name {
   font-family: "Now Regular";
   font-size: 16px;
-  letter-spacing: 6px;
+  letter-spacing: 6.1px;
   margin: 0;
 }
 
@@ -242,19 +243,20 @@ a:active {
 }
 
 .bio {
-  min-height: 40vh;
   padding: 10vh var(--m-margin);
-  justify-content: space-between;
+}
+
+.bio-left, .bio-right {
+  width: 50%;
 }
 
 .bio-photo {
-  height: 100%;
-  max-width: 100%;
   padding-right: var(--m-margin);
 }
 
 .bio-photo-img {
-  height: 60vh;
+  height: 40vh;
+  max-height: 450px;
 }
 
 .bio-text {
@@ -278,10 +280,8 @@ a:active {
 }
 
 .footer-up {
-  @media screen and (max-width: 680px) {
     flex-direction: column;
     gap: var(--s-margin);
-  }
 }
 
 .footer-up-left,
@@ -389,16 +389,16 @@ a:active {
     padding-bottom: var(--s-margin);
   }
 
-  .bio-text {
-    width: 100%;
-  }
-
   .footer-up-right {
     text-align: right;
   }
 
   .slide {
     width: 680px;
+  }
+
+  .bio-left, .bio-right {
+    width: 100%;
   }
 }
 
@@ -407,6 +407,7 @@ a:active {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 20px;
+  margin-bottom: 40px;
   font-size: 11px;
   font-family: var(--main-font);
   line-height: 1.4;
@@ -421,7 +422,7 @@ a:active {
 }
 
 .media-img {
-  width: 150px;
+  width: 100px;
   margin: 10px;
   transition: transform 0.3s;
 }
