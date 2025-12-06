@@ -34,7 +34,7 @@ function App() {
             <header className="header">
                 <div className="header-left">
                     <h1 className="name">GRZEGORZ PIEKARSKI</h1>
-                    <h2 className="profession">DIRECTOR | SCRIPTWRITER | CINEMATOGRAPHER</h2>
+                    <h2 className={`profession nav-${t.lang}`}>{t.profession}</h2>
                 </div>
                 <div className="header-right">
                     <div className="nav">

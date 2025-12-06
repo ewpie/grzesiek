@@ -22,14 +22,18 @@ import media_8 from './assets/media/08-czworka.png';
 
 export const siteTexts = {
     pl:{
+        lang: "pl",
         bio: "bio/kontakt",
+        profession: "REŻYSER | SCENARZYSTA | OPERATOR",
         contact: "Kontakt:",
         presskit: "Presskit",
         rights: "©2025 Grzegorz Piekarski. Wszelkie prawa zastrzeżone.",
         bioDescription: "Reżyser i scenarzysta, urodzony w Warszawie. Absolwent Szkoły Filmowej im. Krzysztofa Kieślowskiego w Katowicach oraz Wydziału Mechatroniki Politechniki Warszawskiej. Stypendysta programu „Młoda Polska” Ministerstwa Kultury i Dziedzictwa Narodowego. Uczestnik programów rozwojowych Doc Lab Poland i dok.incubator. Członek Stowarzyszenia Filmowców Polskich.<br/>Jego fabularny film dyplomowy „Niewolnik” był prezentowany m.in. na Festiwalu Polskich Filmów Fabularnych w Gdyni, Warszawskim Festiwalu Filmowym, Camerimage oraz Nowych Horyzontach. <br/> Pełnometrażowy dokument „Miasto, które wyjechało” miał światową premierę na festiwalu Visions du Réel w Nyonie – jednym z najważniejszych wydarzeń kina dokumentalnego na świecie – gdzie zdobył nagrodę. Film otrzymał także liczne wyróżnienia i nominacje na międzynarodowych festiwalach, a na festiwalu Młodzi i Film w Koszalinie uhonorowano go Wielkim Jantarem za najlepszy debiut dokumentalny."   
     },
     eng:{
+        lang: "eng",
         bio: "bio/contact",
+        profession: "DIRECTOR | SCRIPTWRITER | CINEMATOGRAPHER",
         contact: "Contact:",
         presskit: "Presskit",
         rights: "©2025 Grzegorz Piekarski. All Rights Reserved.",
