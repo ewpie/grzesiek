@@ -79,6 +79,7 @@ export const movies = [
         duration: "2025 / 70 min",
         description: "W Kurdystanie ostatni mieszkańcy antycznego miasta Hasankeyf bezsilnie patrzą, jak dziedzictwo dziewięciu cywilizacji znika pod wodą, po tym jak turecki rząd buduje tamę na rzece Tygrys. Obietnice rozwoju odbierają ludziom ich tożsamość i dawne domy, zastępując je betonowymi, co prawda nowoczesnymi  budowlami, ale pozbawionych dawnej duszy.",
         awards: ["Wygrana - Visions du Réel Nyon - Nagroda Specjalna Jury Młodzieżowego - 2025",
+        "Nominacja - Nagrody Międzynarodowego Stowarzyszenia Dokumentalistów - Najlepsze Zdjęcia - 2025",
         "Wygrana - CinemAmbiente Turyn - Główna Nagroda - 2025",
         "Wygrana - Festiwal Debiutów Młodzi i Film w Koszalinie - Wielki Jantar - 2025",
         "Nominacja - Krakowski Festiwal Filmowy - Złoty Lajkonik - 2025",
@@ -89,6 +90,8 @@ export const movies = [
         "Wygrana - Festiwal Filmów Ekologicznych w Bozcaadzie - Nagroda Specjalna Jury - 2025",
         "Wygrana - Festiwal Filmów Architektonicznych w Rotterdamie (AFFR) - Główna Nagroda - 2025",
         "Wygrana - CineEco – Międzynarodowy Festiwal Filmów o Środowisku Serra da Estrela - Główna Nagroda - 2025",
+        "Wygrana - Lubuskie Lato Filmowe w Łagowie - Złote Grono - 2025",
+        "Pokaz - Międzynarodowy Festiwal Filmów Dokumentalnych Porto/Post/Doc - Human Rights in Motion - 2025",
         "Pokaz - Międzynarodowy Festiwal Filmów Dokumentalnych Ji.hlava - Sekcja Constellations (najlepsze nagradzane filmy festiwalowe) - 2025"]
     },
     eng: {
@@ -99,6 +102,7 @@ export const movies = [
         description: "In Kurdistan, the last residents of the ancient town of Hasankeyf helplessly watch as the heritage of nine civilizations disappears under the water, after the Turkish government builds a dam on the Tigris River. Promises of development take away their identity and old homes, replacing them with concrete, modern buildings—though lacking the soul they once had.",
 
         awards:["Winner - Visions du Réel Nyon - Special Youth Jury Prize for Best Medium-Length Film - 2025",
+        "Nominee - IDA Documentary Awards - Best Cinematography - 2025",
         "Winner - CinemAmbiente Turin - Grand Prize - 2025",
         "Winner - Debut Festival Young and Film in Koszalin - Grand Jantar - 2025",
         "Nominee - Krakow Film Festival - Golden Hobby Horse - 2025",
@@ -109,6 +113,8 @@ export const movies = [
         "Winner - Bozcaada International Festival of Ecological Documentary - Jury Special Award - 2025",
         "Winner - Architecture Film Festival Rotterdam (AFFR) - Grand Prize - 2025",
         "Winner - CineEco – International Environmental Film Festival of Serra da Estrela - Grand Prize - 2025",
+        "Winner - Lubuskie Film Summer in Łagów - Golden Grape - 2025",
+        "Screening - Porto/Post/Doc Film & Media Festival - Human Rights in Motion - 2025",
         "Screening - Ji.hlava International Documentary Film Festival - Constellations Section (Best Awarded Films from Other Festivals) - 2025"]
     },
     photos:[
