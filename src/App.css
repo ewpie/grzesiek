@@ -299,6 +299,7 @@ a:active {
 
 .footer-up {
     flex-direction: column;
+    align-items: center;
     gap: var(--s-margin);
 }
 
@@ -312,6 +313,7 @@ a:active {
 
 .footer-up-left p {
   margin: 0;
+  text-align: center;
 }
 
 .footer-email,
@@ -368,7 +370,7 @@ a:active {
 }
 
 .contact-button {
-  align-self: flex-start;
+  align-self: center;
   font-family: var(--main-font);
   font-size: 16px;
   color: white;
