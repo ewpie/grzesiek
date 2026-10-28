@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/grzesiek/static/css/main.4c5c854f.css",
-    "main.js": "/grzesiek/static/js/main.b60805de.js",
+    "main.js": "/grzesiek/static/js/main.6531cc2f.js",
     "static/js/453.36a50e1d.chunk.js": "/grzesiek/static/js/453.36a50e1d.chunk.js",
     "static/media/3.jpg": "/grzesiek/static/media/3.a8a8eaf7c0e2f2e8e573.jpg",
     "static/media/4.jpg": "/grzesiek/static/media/4.a3376416e9901f61654c.jpg",
@@ -10,8 +10,8 @@
     "static/media/00-filmpolski.png": "/grzesiek/static/media/00-filmpolski.8c4b64e27f9a2ebac7a6.png",
     "static/media/02-moderntimesreview.png": "/grzesiek/static/media/02-moderntimesreview.09ce1b9424cbca422b6f.png",
     "static/media/00-imdb.png": "/grzesiek/static/media/00-imdb.090956acd6c8d8c58b32.png",
+    "static/media/bioFoto.jpg": "/grzesiek/static/media/bioFoto.a6652904938ea888aa28.jpg",
     "static/media/04-culture.png": "/grzesiek/static/media/04-culture.fe8acdfac0bef08a6649.png",
-    "static/media/bioFoto.jpg": "/grzesiek/static/media/bioFoto.501ff55d0bdadeabc5ed.jpg",
     "static/media/08-czworka.png": "/grzesiek/static/media/08-czworka.ad2d040f6ee68ff61ed2.png",
     "static/media/awardIcon.png": "/grzesiek/static/media/awardIcon.979b7ca603dff1eee882.png",
     "static/media/01-businessdoceurope.png": "/grzesiek/static/media/01-businessdoceurope.649e42b421cde37551a6.png",
@@ -23,11 +23,11 @@
     "static/media/Now-Light.woff": "/grzesiek/static/media/Now-Light.9ae36d2f0885ff2ae895.woff",
     "index.html": "/grzesiek/index.html",
     "main.4c5c854f.css.map": "/grzesiek/static/css/main.4c5c854f.css.map",
-    "main.b60805de.js.map": "/grzesiek/static/js/main.b60805de.js.map",
+    "main.6531cc2f.js.map": "/grzesiek/static/js/main.6531cc2f.js.map",
     "453.36a50e1d.chunk.js.map": "/grzesiek/static/js/453.36a50e1d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4c5c854f.css",
-    "static/js/main.b60805de.js"
+    "static/js/main.6531cc2f.js"
   ]
 }
