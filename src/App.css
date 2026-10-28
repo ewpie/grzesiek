@@ -278,6 +278,10 @@ a:active {
   line-height: 1.4;
 }
 
+.bio-text p:first-child {
+  margin-top: 0;
+}
+
 .footer {
   min-height: 50vh;
   display: flex;
