@@ -44,7 +44,7 @@ export default function MovieSlider({ photos }) {
                 setToggleDirection(null);
             });
         });
-    }, [toggleDirection]);
+    }, [toggleDirection, lastSlide]);
 
     function leftClickHandler() {
         if (mainPhotoId === -2) {
