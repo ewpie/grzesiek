@@ -9,6 +9,8 @@ import foto2_3 from './assets/movie02/3.jpg';
 import foto2_4 from './assets/movie02/4.jpg';
 // import foto2_5 from './assets/movie02/5.jpg';
 
+import media_imdb from './assets/media/00-imdb.png';
+import media_filmpolski from './assets/media/00-filmpolski.png';
 import media_1 from './assets/media/01-businessdoceurope.png';
 import media_2 from './assets/media/02-moderntimesreview.png';
 import media_3 from './assets/media/03-rainews.png';
@@ -160,6 +162,8 @@ export const movies = [
 
 
 export const medias = [
+    { src: media_imdb, href: "https://www.imdb.com/name/nm11128545/?ref_=ttawd_awd_1" },
+    { src: media_filmpolski, href: "https://filmpolski.pl/fp/index.php?osoba=11156939" },
     { src: media_1, href: "https://businessdoceurope.com/vdr-medium-length-competition-the-town-that-drove-away-by-grzegorz-piekarski-natalia-pietsch/" },
     { src: media_2, href: "https://www.moderntimes.review/interview-the-town-that-drove-away" },
     { src: media_3, href: "https://www.rainews.it/tgr/piemonte/articoli/2025/06/cinemambiente-vince-il-polacco-the-town-that-drove-away-9734a225-1b5c-4b82-9ab2-1dc201d7ce2e.html" },

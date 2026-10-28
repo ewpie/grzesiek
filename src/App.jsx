@@ -73,10 +73,6 @@ function App() {
                             <p>gr.piekarski@gmail.com</p>
                             {/* <p>{t.presskit}</p> */}
                         </div>
-                        <div className="footer-up-right">
-                            <a className="footer-link" href="https://www.imdb.com/name/nm11128545/?ref_=ttawd_awd_1">IMDB</a>
-                            <a className="footer-link" href="https://filmpolski.pl/fp/index.php?osoba=11156939">FILM POLSKI</a>
-                        </div>
                     </div>
                     <div className="site-wrap">
                         <hr className="hr" />
