@@ -449,3 +449,40 @@ a:active {
 .border-top {
   border-top: 1px solid black
 }
+
+.gate {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--s-margin);
+  font-family: var(--main-font);
+  color: var(--dark-gray);
+}
+
+.gate-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--s-margin);
+  text-align: center;
+}
+
+.gate-input {
+  font-family: var(--main-font);
+  font-size: 16px;
+  padding: 8px 12px;
+  border: 1px solid var(--gray);
+  border-radius: 4px;
+  width: 100%;
+  max-width: 260px;
+}
+
+.gate-error {
+  color: #b00020;
+  margin: 0;
+}
+
+.gate-button {
+  width: auto;
+}

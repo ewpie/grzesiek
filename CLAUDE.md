@@ -35,4 +35,6 @@ Pole `"homepage"` w `package.json` decyduje o ścieżkach w buildzie i musi paso
 1. **GitHub Pages (wersja pokazowa / robocza)** — `"homepage": "https://ewpie.github.io/grzesiek/"`, potem `npm run deploy`. To jest obecny etap prac.
 2. **Hosting produkcyjny (jchost, domena gpiekarski.pl)** — `"homepage": "."`, `npm run build`, a następnie ręczne podmienienie całej zawartości `public_html` (z podfolderami) na **zawartość** folderu `build/` przez menedżer plików hostingu.
 
+`src/components/PasswordGate.jsx` (owija `<App />` w `index.js`) pokazuje ekran z hasłem i dodaje `noindex` **tylko** na hoście `ewpie.github.io` — na produkcji i lokalnie jest przezroczysty. W kodzie jest tylko hash SHA-256 hasła (`PASSWORD_HASH`); to zasłona, nie zabezpieczenie. Zmiana hasła: `node -e "console.log(require('crypto').createHash('sha256').update('NOWE_HASLO').digest('hex'))"` i podmiana `PASSWORD_HASH`.
+
 `public/.htaccess` (przepisywanie wszystkiego na `index.html`) trafia do buildu i jest potrzebny na hostingu Apache.
