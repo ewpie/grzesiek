@@ -1,8 +1,20 @@
-import { render, screen } from '@testing-library/react';
+import { render, screen, fireEvent } from '@testing-library/react';
 import App from './App';
+import { movies } from './data';
 
-test('renders learn react link', () => {
+test('renders name and Polish movie titles by default', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  expect(screen.getByRole('heading', { level: 1, name: 'GRZEGORZ PIEKARSKI' })).toBeInTheDocument();
+  movies.forEach((movie) => {
+    expect(screen.getByText(movie.pl.movieTitle)).toBeInTheDocument();
+  });
+});
+
+test('language toggle switches to English', () => {
+  render(<App />);
+  fireEvent.click(screen.getByRole('button', { name: 'ENG' }));
+  movies.forEach((movie) => {
+    expect(screen.getByText(movie.eng.movieTitle)).toBeInTheDocument();
+  });
+  expect(screen.getByRole('button', { name: 'PL' })).toBeInTheDocument();
 });

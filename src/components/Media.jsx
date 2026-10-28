@@ -1,4 +1,3 @@
-import { medias } from "../data"
 
 export default function Media({ medias }) {
 
