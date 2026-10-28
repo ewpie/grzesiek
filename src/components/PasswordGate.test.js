@@ -4,7 +4,7 @@ import PasswordGate, { isPreviewHost } from './PasswordGate';
 test('password is required only on GitHub Pages', () => {
   expect(isPreviewHost('ewpie.github.io')).toBe(true);
   expect(isPreviewHost('localhost')).toBe(false);
-  expect(isPreviewHost('gpiekarski.pl')).toBe(false);
+  expect(isPreviewHost('gpiekarski.com')).toBe(false);
 });
 
 test('outside GitHub Pages content is shown without password', () => {
