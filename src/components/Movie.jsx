@@ -5,7 +5,7 @@ export default function Movie({ movieData, photos }) {
     const awards = movieData.awards
     return (
         <div className="movie-wrap">
-            <MovieSlider photos={photos}></MovieSlider>
+            <MovieSlider photos={photos} title={movieData.movieTitle}></MovieSlider>
             <div className="movie-bottom align-center">
                 <div className="site-wrap">
                     <div className="movie-left">

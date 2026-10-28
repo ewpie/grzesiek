@@ -25,6 +25,8 @@ import media_8 from './assets/media/08-czworka.png';
 export const siteTexts = {
     pl:{
         lang: "pl",
+        seoTitle: "Grzegorz Piekarski – reżyser filmu „Miasto, które wyjechało”",
+        seoDescription: "Grzegorz Piekarski – reżyser, scenarzysta i operator. Twórca nagradzanego dokumentu „Miasto, które wyjechało” (Visions du Réel, CinemAmbiente) i filmu „Niewolnik”.",
         bio: "bio",
         contactNav: "kontakt",
         profession: "REŻYSER | SCENARZYSTA | OPERATOR",
@@ -43,6 +45,8 @@ export const siteTexts = {
     },
     eng:{
         lang: "eng",
+        seoTitle: "Grzegorz Piekarski – director of The Town That Drove Away",
+        seoDescription: "Grzegorz Piekarski – Polish film director, screenwriter and cinematographer. Director of the award-winning documentary The Town That Drove Away (Visions du Réel, CinemAmbiente) and the short film Slave.",
         bio: "bio",
         contactNav: "contact",
         profession: "DIRECTOR | SCRIPTWRITER | CINEMATOGRAPHER",
@@ -186,16 +190,16 @@ export const movies = [
 
 
 export const medias = [
-    { src: media_imdb, href: "https://www.imdb.com/name/nm11128545/?ref_=ttawd_awd_1" },
-    { src: media_filmpolski, href: "https://filmpolski.pl/fp/index.php?osoba=11156939" },
-    { src: media_1, href: "https://businessdoceurope.com/vdr-medium-length-competition-the-town-that-drove-away-by-grzegorz-piekarski-natalia-pietsch/" },
-    { src: media_2, href: "https://www.moderntimes.review/interview-the-town-that-drove-away" },
-    { src: media_3, href: "https://www.rainews.it/tgr/piemonte/articoli/2025/06/cinemambiente-vince-il-polacco-the-town-that-drove-away-9734a225-1b5c-4b82-9ab2-1dc201d7ce2e.html" },
-    { src: media_4, href: "https://culture.pl/pl/dzielo/miasto-ktore-wyjechalo-rez-grzegorz-piekarski-natalia-pietsch" },
-    { src: media_5, href: "https://youtu.be/fp5hTxDyGrU?si=k5KvXE7tEDCnFWRK" },
-    { src: media_6, href: "https://audycje.tokfm.pl/podcast/180968,Tureckie-wladze-kontra-Arabowie-i-Kurdowie-Formy-oporu-i-wyrazy-uleglosci-czyli-opowiesc-o-filmie-Miasto-ktore-wyjechalo" },
-    { src: media_7, href: "https://trojka.polskieradio.pl/artykul/3530889,najwazniejsi-sa-ludzie-trojka-na-krakowskim-festiwalu-filmowym" },
-    { src: media_8, href: "https://www.polskieradio.pl/czworka/audycje/co-ogladac,11603/odcinek/natalia-pietsch-i-grzegorz-piekarski-opowiedzieli-o-filmie-dokumentalnym-miasto-ktore-wyjechalo-czy-warto-zobaczyc-nowy-serial-rekruci,fdfb5c65-8d77-4aed-b001-110caa2aea62" }
+    { src: media_imdb, name: "IMDb", href: "https://www.imdb.com/name/nm11128545/?ref_=ttawd_awd_1" },
+    { src: media_filmpolski, name: "FilmPolski.pl", href: "https://filmpolski.pl/fp/index.php?osoba=11156939" },
+    { src: media_1, name: "Business Doc Europe", href: "https://businessdoceurope.com/vdr-medium-length-competition-the-town-that-drove-away-by-grzegorz-piekarski-natalia-pietsch/" },
+    { src: media_2, name: "Modern Times Review", href: "https://www.moderntimes.review/interview-the-town-that-drove-away" },
+    { src: media_3, name: "RaiNews", href: "https://www.rainews.it/tgr/piemonte/articoli/2025/06/cinemambiente-vince-il-polacco-the-town-that-drove-away-9734a225-1b5c-4b82-9ab2-1dc201d7ce2e.html" },
+    { src: media_4, name: "Culture.pl", href: "https://culture.pl/pl/dzielo/miasto-ktore-wyjechalo-rez-grzegorz-piekarski-natalia-pietsch" },
+    { src: media_5, name: "Radio Nowy Świat", href: "https://youtu.be/fp5hTxDyGrU?si=k5KvXE7tEDCnFWRK" },
+    { src: media_6, name: "TOK FM", href: "https://audycje.tokfm.pl/podcast/180968,Tureckie-wladze-kontra-Arabowie-i-Kurdowie-Formy-oporu-i-wyrazy-uleglosci-czyli-opowiesc-o-filmie-Miasto-ktore-wyjechalo" },
+    { src: media_7, name: "Trójka – Polskie Radio", href: "https://trojka.polskieradio.pl/artykul/3530889,najwazniejsi-sa-ludzie-trojka-na-krakowskim-festiwalu-filmowym" },
+    { src: media_8, name: "Czwórka – Polskie Radio", href: "https://www.polskieradio.pl/czworka/audycje/co-ogladac,11603/odcinek/natalia-pietsch-i-grzegorz-piekarski-opowiedzieli-o-filmie-dokumentalnym-miasto-ktore-wyjechalo-czy-warto-zobaczyc-nowy-serial-rekruci,fdfb5c65-8d77-4aed-b001-110caa2aea62" }
 ];
 
 

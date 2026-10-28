@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
-export default function MovieSlider({ photos }) {
+export default function MovieSlider({ photos, title }) {
 
     const [mainPhotoId, setMainPhotoId] = useState(0);
     const [sliderTransitionTime, setSliderTransitionTime] = useState(2);
@@ -76,7 +76,7 @@ export default function MovieSlider({ photos }) {
 
     return (
         <div className="movie-slider">
-            <div className="slides" style={{ transform: `translateX(${mainPhotoId * (-slideWidth)}px)`, transition: `transform ${sliderTransitionTime}s` }}>
+            <div className="slides" role="img" aria-label={`${title} – kadry z filmu, reż. Grzegorz Piekarski`} style={{ transform: `translateX(${mainPhotoId * (-slideWidth)}px)`, transition: `transform ${sliderTransitionTime}s` }}>
                 <div className={(mainPhotoId === -3) ? `slide current` : `slide`} data-id={-3}>
                     <div className="slide-image" style={{ backgroundImage: `url(${photos[photos.length - 3].src})` }}></div>
                 </div>

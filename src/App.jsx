@@ -15,21 +15,11 @@ function App() {
 
     return (<>
 
-        <Helmet>
-            <title>Grzegorz Piekarski – reżyser, scenarzysta</title>
-            <meta name="description" content="Oficjalna strona Grzegorza Piekarskiego – reżysera i scenarzysty. Informacje, filmy, kontakt." />
+        {/* Dane strukturalne (JSON-LD), Open Graph i canonical są w public/index.html */}
+        <Helmet htmlAttributes={{ lang: language === 'pl' ? 'pl' : 'en' }}>
+            <title>{t.seoTitle}</title>
+            <meta name="description" content={t.seoDescription} />
         </Helmet>
-        <script type="application/ld+json">
-            {`
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Grzegorz Piekarski",
-  "jobTitle": "Reżyser, Scenarzysta",
-  "url": "https://gpiekarski.com"
-}
-`}
-        </script>
         <div className="App">
             <header className="header">
                 <div className="header-left">
@@ -58,7 +48,7 @@ function App() {
                 <div className="align-center">
                     <div id="bio" className="bio site-wrap">
                         <div className="bio-photo bio-left">
-                            <img className="bio-photo-img" src={bioFoto} alt="Grzegorz Piekarski – zdjęcie" />
+                            <img className="bio-photo-img" src={bioFoto} alt="Grzegorz Piekarski – reżyser, scenarzysta i operator filmowy" />
                         </div>
                         <div className="bio-text bio-right">
                             <p>GRZEGORZ PIEKARSKI</p>
