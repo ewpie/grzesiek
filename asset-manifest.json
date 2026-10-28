@@ -1,33 +1,23 @@
 {
   "files": {
     "main.css": "/grzesiek/static/css/main.7393a908.css",
-    "main.js": "/grzesiek/static/js/main.6531cc2f.js",
+    "main.js": "/grzesiek/static/js/main.d4550de0.js",
     "static/js/453.36a50e1d.chunk.js": "/grzesiek/static/js/453.36a50e1d.chunk.js",
-    "static/media/3.jpg": "/grzesiek/static/media/3.a8a8eaf7c0e2f2e8e573.jpg",
-    "static/media/4.jpg": "/grzesiek/static/media/4.a3376416e9901f61654c.jpg",
-    "static/media/1.jpg": "/grzesiek/static/media/1.c8a656790a31576c7b43.jpg",
-    "static/media/2.jpg": "/grzesiek/static/media/2.d7ec1a5f84fb9b34401a.jpg",
-    "static/media/00-filmpolski.png": "/grzesiek/static/media/00-filmpolski.8c4b64e27f9a2ebac7a6.png",
-    "static/media/02-moderntimesreview.png": "/grzesiek/static/media/02-moderntimesreview.09ce1b9424cbca422b6f.png",
-    "static/media/00-imdb.png": "/grzesiek/static/media/00-imdb.090956acd6c8d8c58b32.png",
-    "static/media/bioFoto.jpg": "/grzesiek/static/media/bioFoto.a6652904938ea888aa28.jpg",
-    "static/media/04-culture.png": "/grzesiek/static/media/04-culture.fe8acdfac0bef08a6649.png",
-    "static/media/08-czworka.png": "/grzesiek/static/media/08-czworka.ad2d040f6ee68ff61ed2.png",
-    "static/media/awardIcon.png": "/grzesiek/static/media/awardIcon.979b7ca603dff1eee882.png",
-    "static/media/01-businessdoceurope.png": "/grzesiek/static/media/01-businessdoceurope.649e42b421cde37551a6.png",
-    "static/media/03-rainews.png": "/grzesiek/static/media/03-rainews.46231b1d26903d8d664d.png",
-    "static/media/07-trojka.png": "/grzesiek/static/media/07-trojka.108770ad6b2167c95419.png",
-    "static/media/05-nowyswiat.png": "/grzesiek/static/media/05-nowyswiat.a8d2ce10d034101d9641.png",
-    "static/media/06-tokfm.png": "/grzesiek/static/media/06-tokfm.7951c72714653f4712ed.png",
+    "static/media/4.jpg": "/grzesiek/static/media/4.412aaf8f2235b4ab1e66.jpg",
+    "static/media/1.jpg": "/grzesiek/static/media/1.6bb5133e0b498903db11.jpg",
+    "static/media/3.jpg": "/grzesiek/static/media/3.76c7671c123bfd090c89.jpg",
+    "static/media/2.jpg": "/grzesiek/static/media/2.9bcdd0f74bf2a86b91bc.jpg",
+    "static/media/bioFoto.jpg": "/grzesiek/static/media/bioFoto.6046634d65d774276037.jpg",
     "static/media/Now-Regular.woff": "/grzesiek/static/media/Now-Regular.23f82d3e574483c4c7df.woff",
     "static/media/Now-Light.woff": "/grzesiek/static/media/Now-Light.9ae36d2f0885ff2ae895.woff",
+    "static/media/08-czworka.png": "/grzesiek/static/media/08-czworka.2fe088286c8773b34467.png",
     "index.html": "/grzesiek/index.html",
     "main.7393a908.css.map": "/grzesiek/static/css/main.7393a908.css.map",
-    "main.6531cc2f.js.map": "/grzesiek/static/js/main.6531cc2f.js.map",
+    "main.d4550de0.js.map": "/grzesiek/static/js/main.d4550de0.js.map",
     "453.36a50e1d.chunk.js.map": "/grzesiek/static/js/453.36a50e1d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7393a908.css",
-    "static/js/main.6531cc2f.js"
+    "static/js/main.d4550de0.js"
   ]
 }
