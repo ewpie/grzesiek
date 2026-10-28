@@ -307,6 +307,19 @@ a:active {
   margin: 0;
 }
 
+.footer-email,
+.footer-email:hover,
+.footer-email:active {
+  font: inherit;
+  color: inherit;
+  padding: 0;
+  width: auto;
+}
+
+.footer-email:hover {
+  color: var(--light-gray);
+}
+
 .footer-down {
   font-size: 10px;
 }

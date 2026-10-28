@@ -10,6 +10,11 @@ test('renders name and Polish movie titles by default', () => {
   });
 });
 
+test('contact email is shown as a mailto link', () => {
+  render(<App />);
+  expect(screen.getByRole('link', { name: 'gr.piekarski@gmail.com' })).toHaveAttribute('href', 'mailto:gr.piekarski@gmail.com');
+});
+
 test('language toggle switches to English', () => {
   render(<App />);
   fireEvent.click(screen.getByRole('button', { name: 'ENG' }));
