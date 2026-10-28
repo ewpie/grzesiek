@@ -10,9 +10,10 @@ test('renders name and Polish movie titles by default', () => {
   });
 });
 
-test('contact email is shown as a mailto link', () => {
+test('contact form is shown instead of email address', () => {
   render(<App />);
-  expect(screen.getByRole('link', { name: 'gr.piekarski@gmail.com' })).toHaveAttribute('href', 'mailto:gr.piekarski@gmail.com');
+  expect(screen.getByRole('button', { name: 'Wyślij' })).toBeInTheDocument();
+  expect(screen.queryByText(/@/)).not.toBeInTheDocument();
 });
 
 test('language toggle switches to English', () => {

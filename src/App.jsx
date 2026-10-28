@@ -1,7 +1,7 @@
 import './App.css';
 import Movie from './components/Movie';
 import Media from './components/Media';
-import ContactEmail from './components/ContactEmail';
+import ContactForm from './components/ContactForm';
 import { siteTexts, movies, medias } from './data';
 import bioFoto from './assets/bioFoto.jpg';
 
@@ -26,7 +26,7 @@ function App() {
   "@type": "Person",
   "name": "Grzegorz Piekarski",
   "jobTitle": "Reżyser, Scenarzysta",
-  "url": "https://gpiekarski.pl"
+  "url": "https://gpiekarski.com"
 }
 `}
         </script>
@@ -70,7 +70,7 @@ function App() {
                     <div className="site-wrap footer-up">
                         <div className="footer-up-left">
                             <p>{t.contact}</p>
-                            <p><ContactEmail /></p>
+                            <ContactForm t={t} />
                             {/* <p>{t.presskit}</p> */}
                         </div>
                     </div>

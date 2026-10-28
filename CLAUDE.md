@@ -6,7 +6,7 @@ Właścicielka projektu pisze po polsku — odpowiadaj po polsku.
 
 ## Projekt
 
-Jednostronicowa strona-portfolio reżysera Grzegorza Piekarskiego (docelowa domena: gpiekarski.pl). Create React App (`react-scripts` 5), React 18, bez routera i bez backendu.
+Jednostronicowa strona-portfolio reżysera Grzegorza Piekarskiego (docelowa domena: gpiekarski.com, hosting jchost). Create React App (`react-scripts` 5), React 18, bez routera i bez backendu.
 
 ## Komendy
 
@@ -33,8 +33,10 @@ Jednostronicowa strona-portfolio reżysera Grzegorza Piekarskiego (docelowa dome
 Pole `"homepage"` w `package.json` decyduje o ścieżkach w buildzie i musi pasować do celu:
 
 1. **GitHub Pages (wersja pokazowa / robocza)** — `"homepage": "https://ewpie.github.io/grzesiek/"`, potem `npm run deploy`. To jest obecny etap prac.
-2. **Hosting produkcyjny (jchost, domena gpiekarski.pl)** — `"homepage": "."`, `npm run build`, a następnie ręczne podmienienie całej zawartości `public_html` (z podfolderami) na **zawartość** folderu `build/` przez menedżer plików hostingu.
+2. **Hosting produkcyjny (jchost, domena gpiekarski.com)** — `"homepage": "."`, `npm run build`, a następnie ręczne podmienienie całej zawartości `public_html` (z podfolderami) na **zawartość** folderu `build/` przez menedżer plików hostingu.
 
 `src/components/PasswordGate.jsx` (owija `<App />` w `index.js`) pokazuje ekran z hasłem i dodaje `noindex` **tylko** na hoście `ewpie.github.io` — na produkcji i lokalnie jest przezroczysty. W kodzie jest tylko hash SHA-256 hasła (`PASSWORD_HASH`); to zasłona, nie zabezpieczenie. Zmiana hasła: `node -e "console.log(require('crypto').createHash('sha256').update('NOWE_HASLO').digest('hex'))"` i podmiana `PASSWORD_HASH`.
+
+**Formularz kontaktowy** (`ContactForm.jsx`) wysyła POST do `public/kontakt.php`, który przez `mail()` na jchost wysyła wiadomość do Grzegorza (From: `formularz@gpiekarski.com`, Reply-To: nadawca). Działa tylko na hostingu — na GitHub Pages przycisk jest wyłączony, lokalnie (brak PHP) formularz pokazuje błąd i zapasowy adres z `ContactEmail.jsx`. Ochrona przed botami: ukryte pole `website` i minimalny czas wypełniania (`elapsed`). Adres Grzegorza nigdzie w repo nie występuje jawnie (repo jest publiczne) — w JSX i PHP jest zakodowany base64; w testach też go nie wpisuj.
 
 `public/.htaccess` (przepisywanie wszystkiego na `index.html`) trafia do buildu i jest potrzebny na hostingu Apache.
