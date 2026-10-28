@@ -510,9 +510,15 @@ a:active {
 
 .media-item {
   display: flex;
-  width: 50%;
+  width: 25%;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 680px) {
+  .media-item {
+    width: 50%;
+  }
 }
 
 .media-img {

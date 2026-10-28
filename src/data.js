@@ -25,7 +25,8 @@ import media_8 from './assets/media/08-czworka.png';
 export const siteTexts = {
     pl:{
         lang: "pl",
-        bio: "bio/kontakt",
+        bio: "bio",
+        contactNav: "kontakt",
         profession: "REŻYSER | SCENARZYSTA | OPERATOR",
         contact: "Kontakt:",
         formName: "Imię i nazwisko",
@@ -42,7 +43,8 @@ export const siteTexts = {
     },
     eng:{
         lang: "eng",
-        bio: "bio/contact",
+        bio: "bio",
+        contactNav: "contact",
         profession: "DIRECTOR | SCRIPTWRITER | CINEMATOGRAPHER",
         contact: "Contact:",
         formName: "Name",

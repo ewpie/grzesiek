@@ -38,7 +38,10 @@ function App() {
                 </div>
                 <div className="header-right">
                     <div className="nav">
-                        <a id="nav1" href="#bio">{t.bio}</a>
+                        <a href="#bio">{t.bio}</a>
+                    </div>
+                    <div className="nav">
+                        <a href="#kontakt">{t.contactNav}</a>
                     </div>
                     <div className="nav">
                         <button className="lang-toggle" onClick={() => setLanguage(language === 'pl' ? 'eng' : 'pl')}>
@@ -68,7 +71,7 @@ function App() {
             <footer className="footer">
                 <div className="footer-wrap align-center">
                     <div className="site-wrap footer-up">
-                        <div className="footer-up-left">
+                        <div id="kontakt" className="footer-up-left">
                             <p>{t.contact}</p>
                             <ContactForm t={t} />
                             {/* <p>{t.presskit}</p> */}
