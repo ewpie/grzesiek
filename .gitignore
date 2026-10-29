@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Logi i zrzuty z przeglądarki Playwright (sprawdzanie strony przez Claude)
+.playwright-mcp/
