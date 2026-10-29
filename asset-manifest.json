@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/grzesiek/static/css/main.7393a908.css",
-    "main.js": "/grzesiek/static/js/main.d4550de0.js",
-    "static/js/453.36a50e1d.chunk.js": "/grzesiek/static/js/453.36a50e1d.chunk.js",
+    "main.css": "/grzesiek/static/css/main.bd6b46fe.css",
+    "main.js": "/grzesiek/static/js/main.797d3ac9.js",
+    "static/js/453.5467839c.chunk.js": "/grzesiek/static/js/453.5467839c.chunk.js",
     "static/media/4.jpg": "/grzesiek/static/media/4.412aaf8f2235b4ab1e66.jpg",
     "static/media/1.jpg": "/grzesiek/static/media/1.6bb5133e0b498903db11.jpg",
     "static/media/3.jpg": "/grzesiek/static/media/3.76c7671c123bfd090c89.jpg",
@@ -12,12 +12,12 @@
     "static/media/Now-Light.woff": "/grzesiek/static/media/Now-Light.9ae36d2f0885ff2ae895.woff",
     "static/media/08-czworka.png": "/grzesiek/static/media/08-czworka.2fe088286c8773b34467.png",
     "index.html": "/grzesiek/index.html",
-    "main.7393a908.css.map": "/grzesiek/static/css/main.7393a908.css.map",
-    "main.d4550de0.js.map": "/grzesiek/static/js/main.d4550de0.js.map",
-    "453.36a50e1d.chunk.js.map": "/grzesiek/static/js/453.36a50e1d.chunk.js.map"
+    "main.bd6b46fe.css.map": "/grzesiek/static/css/main.bd6b46fe.css.map",
+    "main.797d3ac9.js.map": "/grzesiek/static/js/main.797d3ac9.js.map",
+    "453.5467839c.chunk.js.map": "/grzesiek/static/js/453.5467839c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7393a908.css",
-    "static/js/main.d4550de0.js"
+    "static/css/main.bd6b46fe.css",
+    "static/js/main.797d3ac9.js"
   ]
 }
