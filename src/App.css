@@ -266,8 +266,10 @@ a:active {
 }
 
 .bio-photo-img {
-  height: 40vh;
-  max-height: 450px;
+  display: block;
+  width: 100%;
+  max-width: 460px;
+  height: auto;
 }
 
 .bio-text {

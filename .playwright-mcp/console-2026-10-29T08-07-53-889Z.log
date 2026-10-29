@@ -1,0 +1,14 @@
+[     374ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:3123/grzesiek/static/js/bundle.js:34602
+[     438ms] [ERROR] Warning: Using UNSAFE_componentWillMount in strict mode is not recommended and may indicate bugs in your code. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move code with side effects to componentDidMount, and set initial state in the constructor.
+
+Please update the following components: %s SideEffect(NullComponent) @ http://localhost:3123/grzesiek/static/js/bundle.js:8916
+[   27973ms] [ERROR] WebSocket connection to 'ws://localhost:3123/ws' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3123/grzesiek/static/js/bundle.js:40557
+[   30050ms] [ERROR] WebSocket connection to 'ws://localhost:3123/ws' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3123/grzesiek/static/js/bundle.js:40557
+[   34098ms] [ERROR] WebSocket connection to 'ws://localhost:3123/ws' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3123/grzesiek/static/js/bundle.js:40557
+[   42167ms] [ERROR] WebSocket connection to 'ws://localhost:3123/ws' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3123/grzesiek/static/js/bundle.js:40557
+[   58199ms] [ERROR] WebSocket connection to 'ws://localhost:3123/ws' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3123/grzesiek/static/js/bundle.js:40557
+[   90239ms] [ERROR] WebSocket connection to 'ws://localhost:3123/ws' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3123/grzesiek/static/js/bundle.js:40557
+[  154317ms] [ERROR] WebSocket connection to 'ws://localhost:3123/ws' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3123/grzesiek/static/js/bundle.js:40557
+[  282349ms] [ERROR] WebSocket connection to 'ws://localhost:3123/ws' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3123/grzesiek/static/js/bundle.js:40557
